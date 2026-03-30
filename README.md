@@ -137,21 +137,6 @@ https://github.com/user-attachments/assets/7ba03ed4-f00d-4564-bf78-67c5159bb5c3
 
 ---
 
-# ⚠️ Warning : This repository and link are not mine. Someone is misusing my GitHub name and avatar. Please avoid downloading or contacting anything from it, as it may be a scam.
-<img width="1087" height="244" alt="image" src="https://github.com/user-attachments/assets/b673a16d-3648-45bc-82e9-793bf9d124c2" />
-
-
-https://github.com/infraform/polymarket-kalshi-arbitrage-bot
-
-https://github.com/infraform/polymarket-arbitrage-trading-bot
-
-https://github.com/infraform/polymarket-trading-bot
-
-## In these repositories, this Telegram link is a scam link that requests a wallet connection.
-
-## So please do not click on this link.
-<img width="1106" height="226" alt="image" src="https://github.com/user-attachments/assets/db7cafb3-25cc-45bc-88ef-67e3a33046ae" />
-
 ---
 ---
 ---
@@ -325,57 +310,8 @@ polymarket-trading-bot-5m-v4/
 | **Config**        | YAML + `POLYBOT5M_*` env overrides                                   |
 | **Beginner Path** | Clone → setup → dry-run → try strategies → add keys → first live run |
 
-# 2. Polymarket Copy Trading Bot (Explain)
 
-## ✨ Why use this bot?
-
-- **Real copy trading** — Mirrors every trade from the proxy wallets you choose (buy, sell, merge).
-- **Your keys, your rules** — Runs on your machine with your wallet; no custody, no middleman.
-- **Flexible sizing** — Copy by **percentage** of the trader’s order, or a **fixed USD amount** per trade.
-- **Multi-wallet** — Run one executor and copy into several follower wallets at once.
-- **Monitor + Executor** — Run a **monitor** (sleuth) to watch traders and fill the DB, and a separate **executor** to place orders (great for scaling or separating concerns).
-- **PnL at a glance** — Check copy-trading performance with `npm run check-copy-pnl`.
-- **Preview mode** — Dry-run: see what *would* be traded without sending real orders.
----
-## 🏗️ How it works
-
-```
-┌──────────────────┐     ┌──────────────────┐     ┌──────────────────┐
-│  Trade Monitor   │────▶│     MongoDB      │◀────│ Trade Executor   │
-│  (sleuth)        │     │  (pending trades)│     │ (places orders)   │
-│  • Polls API     │     │                  │     │ • Validates       │
-│  • Saves trades  │     │                  │     │ • Copy % or $     │
-└──────────────────┘     └──────────────────┘     │ • Multi-wallet   │
-        │                          │               └────────┬─────────┘
-        │                          │                        │
-        ▼                          ▼                        ▼
-  Polymarket API            Your config              Polymarket CLOB
-  (activity, positions)      (COPY_STRATEGY, etc.)    (orders)
-```
-
-- **Monitor** fetches target traders’ activity and positions, deduplicates, and stores new trades.
-- **Executor** reads pending trades, applies your copy strategy (percentage or fixed size), validates balance/positions, and posts orders for each follower wallet.
-- You can run **monitor** and **executor** together (`npm run dev`) or **separately** (`npm run monitor` + `npm run executor`).
-
----
-
-## 📊 PnL and monitoring
-
-- **Copy-trading PnL** — Run `npm run check-copy-pnl` to see value, initial cost, unrealized/realized PnL, and position count for your follower wallet(s). Data comes from the Polymarket positions API.
-- **Logs** — The bot logs trades, balance checks, and errors; use your normal process (e.g. `logs/` directory, PM2, Docker logs) to monitor.
-
----
-
-## 🔒 Security and safety
-
-- **Private keys** — Stored only in your `.env`; never committed. Use a dedicated wallet with limited funds.
-- **Preview mode** — Use `PREVIEW_MODE=true` to test without sending orders.
-- **Limits** — `MAX_ORDER_SIZE_USD`, `MIN_ORDER_SIZE_USD`, and optional `MAX_POSITION_SIZE_USD` / `MAX_DAILY_VOLUME_USD` help cap risk.
-
----
-
-
-# 4. Polymarket Arbitrage (Ladder Trading) Bot (5m / 15m / 1h / 4h / 1d crypto Up/Down markets) (Explain)
+# 2. Polymarket Arbitrage (Ladder Trading) Bot (5m / 15m / 1h / 4h / 1d crypto Up/Down markets) (Explain)
 
 ## Overview
 
