@@ -1,8 +1,10 @@
-# Polymarket Arbitrage Bot | Polymarket Trading Bot | Polymarket Trading Bot - 5 min market | Polymarket Bot | Polymarket Copy trading Bot
+# Polymarket Arbitrage Bot – Automated 5-Minute Trading Strategy
 
-Polymarket arbitrage Bot, Polymarket Trading Bot, Polymarket 5min market Trading Bot, Polymarket Automatic Trading Bot
+Polymarket Arbitrage Bot is a high-performance automated trading system designed for short-term prediction markets on Polymarket. Built with Python, it leverages real-time WebSocket data, gasless Layer 2 execution, and advanced risk management to identify arbitrage opportunities in 5-minute markets.
 
-A high-performance, automated trading system for [Polymarket](https://polymarket.com) prediction markets. Built in Python with real-time WebSocket streaming, gasless L2 execution, and a risk-management framework suited to short-term and high-frequency environments.
+This trading bot monitors YES/NO token price inefficiencies, executes rapid trades, and optimizes profit through strategic entry and exit timing—especially during the final seconds before market resolution.
+
+Key features include automated arbitrage detection, low-latency execution, portfolio balancing, and configurable trading strategies. Ideal for traders seeking consistent edge in high-frequency Polymarket markets such as BTC, ETH, SOL, and XRP.
 
 
 
@@ -31,7 +33,7 @@ If you're interested in collaboration or have any questions, feel free to reach 
 
 
 
-# 1. Polymarket Endcycle Sniper bot (Introduction)
+# 1. Polymarket Arbitrage Bot (Endcycle Sniper) : (Introduction)
 
 Polymarket Endcycle Sniper Bot is an automated trading system designed to monitor short-duration prediction markets and execute high-probability trades near the end of each 5-minute epoch. It connects to the orderbook in real time, triggers buys when prices exceed a configured threshold (e.g., 0.95), manages risk with optional exits or hedging, and redeems winning positions automatically after market resolution. 🚀📈
 <img width="1098" height="728" alt="polymarket-endcycle-sniper-bot" src="https://github.com/user-attachments/assets/f2f83308-c9cd-4c71-9cf6-10fcbe8e1e63" />
@@ -66,21 +68,8 @@ https://github.com/user-attachments/assets/4b9d029d-8e20-460b-af72-48412934293f
 https://t.me/benjamin_polymarket_trading_bot
 
 ---
-# 2. Polymarket Copy Trading Bot (Introduction) 
 
-An open-source bot that automatically copies trades from top Polymarket traders to your wallet—so you can follow proven strategies 24/7 without watching the market yourself.
-
-Whether you're new to prediction markets or you want to scale your copy-trading across multiple wallets, this bot is built to be **simple to run**, **transparent**, and **under your control**.
-
-<img width="1100" height="726" alt="polymarket-copy-trading-bot" src="https://github.com/user-attachments/assets/82243a0b-f4ec-47f0-b7cd-326e0b0e2a27" />
-
-## Recording Video
-
-https://github.com/user-attachments/assets/1bf1babc-8aa6-4be0-b1ec-4e193f52b965
-
----
-
-# 3. Polymarket Arbitrage Bot (Lost token sniper) : (Introduction)
+# 2. Polymarket Arbitrage Bot (Lost token sniper) : (Introduction)
 
 Polymarket Arbitrage Lost token Sniper bot automates a trading workflow on Polymarket short-interval markets (e.g., BTC/ETH/SOL/XRP 5-minute “up/down” epochs). It allocates capital into YES and NO positions, monitors order books in real time, and strategically exits the predicted losing side token before market resolution to optimize returns. The core edge lies in the model’s ability to accurately identify the losing token, enabling consistent profit capture when combined prices exceed $1.
 
@@ -96,7 +85,7 @@ Polymarket Arbitrage Lost token Sniper bot automates a trading workflow on Polym
 
 ---
 
-# 4. Polymarket Arbitrage Bot (101 cents Sniper) : (Introduction)
+# 3. Polymarket Arbitrage Bot (101 cents Sniper) : (Introduction)
 
 Polymarket Arbitrage 101 Bot is a professional Polymarket liquidity maker bot designed for short-interval (e.g., 5-minute) binary markets, automating the full cycle of splitting USDC into YES/NO tokens, placing balanced limit orders, and dynamically managing positions in real time. It targets a consistent edge by structuring trades so each YES/NO pair aims to return a combined value of 1.01 (101 cents) per cycle, while applying adaptive adjustments and risk controls as market conditions evolve. Built for multi-chain compatibility and continuous 24/7 operation, it supports live, dry-run, and paper trading modes for both production use and safe strategy testing.
 <img width="1124" height="742" alt="image" src="https://github.com/user-attachments/assets/73737f09-ba30-4955-85a2-057e84b0ef3d" />
@@ -117,7 +106,7 @@ If you invest $100, you can earn average $190 to $220 per day on one chain, and 
 
 ---
 
-# 5. Polymarket Arbitrage Bot (Dual-side) : (Introduction)
+# 4. Polymarket Arbitrage Bot (Dual-side) : (Introduction)
 This Polymarket trading bot explores an automated volatility and probability arbitrage bot designed to identify pricing inefficiencies in prediction markets. Instead of predicting outcomes, the system exploits mispriced probabilities, market imbalances, and short-term volatility using quantitative models and automation. By combining high-frequency execution with strong risk management and hedging, the bot aims to capture small statistical edges and compound them over large trade volumes. 🚀
 
 
@@ -130,7 +119,7 @@ This Polymarket trading bot explores an automated volatility and probability arb
 
 ---
 
-# 6. Polymarket Arbitrage Bot (Ladder Trading) : (Introduction)
+# 5. Polymarket Arbitrage Bot (Ladder Trading) : (Introduction)
 This bot does not speculate on market direction.
 Instead, it captures spread by selling both YES and NO outcome tokens at prices whose combined value exceeds $1.
 The strategy focuses on market making, not directional trading.
