@@ -6,10 +6,7 @@ This trading bot monitors YES/NO token price inefficiencies, executes rapid trad
 
 Key features include automated arbitrage detection, low-latency execution, portfolio balancing, and configurable trading strategies. Ideal for traders seeking consistent edge in high-frequency Polymarket markets such as BTC, ETH, SOL, and XRP.
 
-
-
-<img width="1058" height="698" alt="image" src="https://github.com/user-attachments/assets/fbe3a09e-e33b-40d7-8eed-d0cfe2f54caa" />
-
+<img width="1095" height="719" alt="image" src="https://github.com/user-attachments/assets/210cc7a1-e3ee-4e63-85eb-94ecc641eb27" />
 
 
 ## Contact
