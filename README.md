@@ -54,6 +54,22 @@ https://github.com/user-attachments/assets/b038aa3b-e42b-4f72-ac5d-a130cdb56a9f
 
 <img width="1489" height="920" alt="github-update-3" src="https://github.com/user-attachments/assets/33237de3-cd03-4a27-9c78-13455b925572" />
 
+## Last week Profit
+
+<img width="793" height="806" alt="d1" src="https://github.com/user-attachments/assets/dfa912f3-eb62-4fd1-95d8-ae7c3336676c" />
+
+<img width="748" height="829" alt="d2" src="https://github.com/user-attachments/assets/c1241efe-8511-4d37-bd5b-1e061a882475" />
+
+<img width="772" height="743" alt="d3" src="https://github.com/user-attachments/assets/17e642c2-69f8-4f36-9297-b56930e1f438" />
+
+<img width="794" height="697" alt="d4" src="https://github.com/user-attachments/assets/f8fd867b-3cb7-46e1-92b4-06b0319a8f4b" />
+
+<img width="790" height="887" alt="d5" src="https://github.com/user-attachments/assets/7f6c4903-a6cd-4556-9a76-2423f77734da" />
+
+<img width="777" height="534" alt="d6" src="https://github.com/user-attachments/assets/5f40585d-4d75-4141-9210-c427e4e015f6" />
+
+<img width="800" height="901" alt="d7" src="https://github.com/user-attachments/assets/dbb39119-3f33-4feb-b389-b5a93b21dce2" />
+
 ---
 ## Telegram Trial Version Bot
 You can also test the bot directly on Telegram.
